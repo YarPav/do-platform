@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Войти</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__header-logo">
+            <img src="img/logo-legacy.svg" width="164" height="55" alt="Logo">
+        </div>
+    </header>
+    <main>
+        <h1 style="display: none;">УДПО</h1>
+        <div class="login-wrapper">
+            <div class="login">
+                <h2 class="login__header">Войдите или зарегистрируйтесь</h2>
+                <h3 class="login__social-label default-text">Через соцсеть</h3>
+                <div class="login__social-icons">
+                    <a href="">
+                        <img src="img/vk.svg" alt="vk" width="63" height="62">
+                    </a>
+                    <a href="">
+                        <img src="img/facebook.svg" alt="facebook" width="63" height="62">
+                    </a>
+                    <a href="">
+                        <img src="img/ok.svg" alt="ok" width="63" height="62">
+                    </a>
+                    <a href="">
+                        <img src="img/mail.svg" alt="mail" width="63" height="62">
+                    </a>
+                    <a href="">
+                        <img src="img/yandex.svg" alt="yandex" width="63" height="62">
+                    </a>
+                </div>
+                <div class="login__other">
+                    <h3 class="login__other__label default-text">Другим способом</h3>
+                    <div class="login__other__choice">
+                        <button class="login__other__choice-item">Номер телефона</button>
+                        <button class="login__other__choice-item">E-mail</button>
+                    </div>
+                </div>
+            </div>
+            <div class="login login__phone ">
+                <button class="login__return-btn default-text"><img src="img/return-arrow.svg" width="8" height="14" alt="Return"> Назад</button>
+                <h2 class="login__header">Войдите или зарегистрируйтесь по номеру телефона</h2>
+                <form action="" class="login__phone__form">
+                    <input type="text" name="phone" class="login__form__input default-text" placeholder="Телефон">
+                    <input type="submit" class="login__phone__form__button default-text" name="login-phone-submit" value="Далее">
+                </form>
+                <form action="" class="login__mail__form login__disable">
+                    <input type="email" name="mail" class="login__form__input default-text" placeholder="E-mail">
+                    <input type="password" name="password" class="login__form__input default-text" placeholder="Введите или придумайте пароль">
+                    <input type="submit" class="login__phone__form__button default-text" name="login-phone-submit" value="Далее">
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
